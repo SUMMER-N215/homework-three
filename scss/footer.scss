@@ -1,0 +1,29 @@
+.footer{
+    height: 400px;
+    background-color: #ee4367;
+
+
+    .signup {
+        height: 60px;
+        display: flex;
+
+        input{
+            height: 100%;
+            width: 529px;
+            background-color:#f56b88;
+            border: none;
+            color: rgba(238,67,103,0.5);
+        }
+
+        ::placeholder {
+            color: rgba(238,67,103,0.5) ;
+            opacity: 1;
+        }
+
+        .button{
+            height: 100%;
+            width: 167px;
+            background-color: #ffffff;
+        }
+    }
+}
