@@ -199,44 +199,69 @@ h1, h2, h3, h4, h5, h6, p {
         flex-wrap: wrap;
   }
 }
-.footer {
-  height: 400px;
-  background-color: #ee4367;
+footer {
+  width: 100%;
+  height: 455px;
+  background-color: #EE4367;
+  margin: 0 auto;
 }
-.footer .signup {
+footer .logo {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative;
+  width: 109px;
+  height: 42px;
+  border: solid 2px #ffffff;
+}
+footer .logo span {
+  position: absolute;
+  bottom: -5px;
+  color: #ffffff;
+}
+footer .footer-info {
+  width: 300px;
+  height: 150px;
+  margin: 0 auto;
+}
+footer .footer-info p {
+  font-size: 24px;
+  color: white;
+}
+footer .signup {
   height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 auto;
 }
-.footer .signup input {
+footer .signup input {
   height: 100%;
   width: 529px;
   background-color: #f56b88;
   border: none;
   color: rgba(238, 67, 103, 0.5);
 }
-.footer .signup ::-webkit-input-placeholder {
+footer .signup ::-webkit-input-placeholder {
   color: rgba(238, 67, 103, 0.5);
   opacity: 1;
 }
-.footer .signup ::-moz-placeholder {
+footer .signup ::-moz-placeholder {
   color: rgba(238, 67, 103, 0.5);
   opacity: 1;
 }
-.footer .signup :-ms-input-placeholder {
+footer .signup :-ms-input-placeholder {
   color: rgba(238, 67, 103, 0.5);
   opacity: 1;
 }
-.footer .signup ::-ms-input-placeholder {
+footer .signup ::-ms-input-placeholder {
   color: rgba(238, 67, 103, 0.5);
   opacity: 1;
 }
-.footer .signup ::placeholder {
+footer .signup ::placeholder {
   color: rgba(238, 67, 103, 0.5);
   opacity: 1;
 }
-.footer .signup .button {
+footer .signup .button {
   height: 100%;
   width: 167px;
   background-color: #ffffff;
